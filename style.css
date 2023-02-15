@@ -1,0 +1,139 @@
+.game_name{
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 5%;
+}
+p{
+  padding-top: 5%;
+  padding-left: 27%;
+  font-size: 20px;
+  font-family: monospace;
+}
+.choice{
+    display: block;
+    padding-left: 27%;
+}
+
+.btn-rock{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: grey;
+    background: transparent;
+    cursor: pointer;
+    font-family: monospace;
+    transition: ease-out 0.5s;
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 grey;
+}
+.btn-rock:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 grey;
+  }
+  
+  .btn-rock:active {
+    transform: scale(0.9);
+  }
+  .btn-paper{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    cursor: pointer;
+    font-family: monospace;
+    transition: ease-out 0.5s;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 white;
+}
+.btn-paper:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 black;
+  }
+  
+  .btn-paper:active {
+    transform: scale(0.9);
+  }
+  .btn-scrissor{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: blue;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 white;
+}
+.btn-scrissor:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 blue;
+  }
+  
+  .btn-scrissor:active {
+    transform: scale(0.9);
+  }
+  .text{
+    padding: 4% 28%;
+    font-size: 15px;
+    font-family: monospace;
+  }
+  .text h3{
+    padding-left: 15%;
+  }
+
+  .btn{
+    padding-left: 40%;
+}
+  .try-again{
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+    margin: 15px;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(200, 18, 245);
+    background: transparent;
+    cursor: pointer;
+    font-family: monospace;
+    transition: ease-out 0.5s;
+    border: 2px solid rgb(195, 6, 220);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 rgb(186, 15, 221);
+}
+.try-again:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 rgb(179, 7, 222);
+  }
+  
+  .try-again:active {
+    transform: scale(0.3);
+  }
+  
+  
+   
+
+   
