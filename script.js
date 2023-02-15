@@ -23,6 +23,7 @@ function compare_result(you,computer){
    var btn = document.getElementById ( "again" ) ;  
  if(you==computer){
    document.getElementById('result').textContent='Equals';
+   console.log('Your option '+you+' is equals with computer oprion '+computer);
    document.getElementById('winner').textContent=' ';
  
  }else{
@@ -30,12 +31,15 @@ function compare_result(you,computer){
          for(var i=0;i<dict.length;i++){
             if( (you==dict[i].opt[0] && computer==dict[i].opt[1]) ||( you==dict[i].opt[1] && computer==dict[i].opt[0] )){
                 document.getElementById('result').textContent=dict[i].message;
+                console.log(dict[i].message);
                 if(computer==dict[i].opt[0] && you==dict[i].opt[1] ){
                   document.getElementById('winner').textContent='Computer win! 🎉';
+                  console.log('Computer win!');
                   document.getElementById('winner').style.paddingLeft='28%';
                 }else
                 if(you==dict[i].opt[0] && computer==dict[i].opt[1]){
                   document.getElementById('winner').style.paddingLeft='34%';
+                  console.log('I win!');
                   document.getElementById('winner').textContent='I win! 🎉';
                 }
               
