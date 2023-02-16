@@ -39,8 +39,8 @@ function compare_result(you,computer){
                 }else
                 if(you==dict[i].opt[0] && computer==dict[i].opt[1]){
                   document.getElementById('winner').style.paddingLeft='34%';
-                  console.log('I win!');
-                  document.getElementById('winner').textContent='I win! 🎉';
+                  console.log('You win!');
+                  document.getElementById('winner').textContent='You win! 🎉';
                 }
               
                    
